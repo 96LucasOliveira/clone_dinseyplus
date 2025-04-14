@@ -35,9 +35,10 @@
         margin: 0 1vw;
         outline: none;
         cursor: pointer;
+        border-bottom: 5px solid transparent;
 
         &--is-active{
-            border-bottom: 5px solid variaveis.$corTextoSecundario;
+            border-color: variaveis.$corTextoSecundario;
         }
         }
     }
